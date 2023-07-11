@@ -1,5 +1,6 @@
 html{
   background-color: black;
+  overflow-y: hidden;
 }
 header{
   /* height: 150px;
@@ -23,10 +24,11 @@ header{
 }
 #Model{
   position: absolute;
-  top: 37vh;
-  right: 16.5vw;
-  width: 60vw;
-  height: 70vh;
+  top: 73%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 70%;
 }
 footer{
   /* height: 100px;
