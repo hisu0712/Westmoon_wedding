@@ -1,15 +1,34 @@
+html{
+  background-color: black;
+}
 header{
-
+  /* height: 150px;
+  background-color: blueviolet; */
 }
 .content{
-  width: 100vw;
+  width: auto;
   height: 100vh;
-
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
-#model{
-  height: 100%;
-  width: 100%;
+#BackImage{
+  position: absolute;
+  height: 100vh;
+}
+#FrontImage{
+  position: absolute;
+  height: 100vh;
+  z-index: 10;
+}
+#Model{
+  position: absolute;
+  top: 37vh;
+  right: 16.5vw;
+  width: 60vw;
+  height: 70vh;
 }
 footer{
-
+  /* height: 100px;
+  background-color: aqua; */
 }
