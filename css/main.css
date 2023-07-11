@@ -27,8 +27,8 @@ header{
   top: 73%;
   left: 53%;
   transform: translate(-50%, -50%);
-  width: 60%;
-  height: 70%;
+  width: 600px;
+  height: 580px;
 }
 footer{
   /* height: 100px;
