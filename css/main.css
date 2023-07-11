@@ -1,0 +1,17 @@
+header{
+  height: 150px;
+  background-color: blueviolet;
+}
+.content{
+  width: 100vw;
+  height: calc(100vh - 250px);
+  background-color: antiquewhite;
+}
+#model{
+  height: 100%;
+  width: 100%;
+}
+footer{
+  height: 100px;
+  background-color: aqua;
+}
