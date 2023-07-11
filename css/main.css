@@ -1,10 +1,9 @@
 header{
-  height: 150px;
 
 }
 .content{
   width: 100vw;
-  height: calc(100vh - 250px);
+  height: 100vh;
 
 }
 #model{
@@ -12,6 +11,5 @@ header{
   width: 100%;
 }
 footer{
-  height: 100px;
 
 }
