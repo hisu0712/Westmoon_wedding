@@ -13,10 +13,12 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
+  /*
   width: 500px;
   height: 850px;
   background-image: url("../img/8.png");
   background-size: contain;
+  */
 }
 #BackImage{
   width: 500px;
@@ -55,6 +57,22 @@ body{
   font-size: 28px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 490px) {
+  .MainPage{
+    width: 100vw;
+    height: 100vh;
+  }
+  .ContainModel{
+    transform: translate(35px, -15px);
+  }
 
+  .SubPage{
+    width: 100vw;
+    height: 550px;
+    transform: translate(0, -50px);
+  }
+  html{
+    background-image: none;
+    background-color: #eaf2d0;
+  }
 }
