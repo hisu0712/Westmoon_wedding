@@ -59,18 +59,20 @@ body{
 }
 
 @media (max-width: 490px) {
-  .MainPage{
+  #BackImage{
     width: 100vw;
     height: 100vh;
   }
   .ContainModel{
     transform: translate(35px, -15px);
+    height: 450px;
+    width: 300px;
   }
 
   .SubPage{
     width: 100vw;
     height: 450px;
-    transform: translate(0, -30px);
+    transform: translate(0, -50px);
   }
   html{
     background-image: none;
