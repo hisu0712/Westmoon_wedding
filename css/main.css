@@ -4,6 +4,7 @@ html{
   font-family: 'Nanum Pen Script', sans-serif;
 }
 body{
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,8 +69,8 @@ body{
 
   .SubPage{
     width: 100vw;
-    height: 550px;
-    transform: translate(0, -50px);
+    height: 450px;
+    transform: translate(0, -30px);
   }
   html{
     background-image: none;
