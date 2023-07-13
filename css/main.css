@@ -71,8 +71,6 @@ body{
 
   .SubPage{
     width: 100vw;
-    height: 450px;
-    transform: translate(0, -50px);
   }
   html{
     background-image: none;
