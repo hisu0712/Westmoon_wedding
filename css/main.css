@@ -1,5 +1,5 @@
 html{
-  background-image: url("/img/bak1.jpg");
+  background-image: url("../img/bak1.jpg");
   background-size: contain;
 }
 .MainPage{
