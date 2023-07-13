@@ -64,7 +64,7 @@ body{
     height: 100vh;
   }
   .ContainModel{
-    transform: translate(35px, -15px);
+    transform: translate(25px, 0);
     height: 450px;
     width: 340px;
   }
