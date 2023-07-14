@@ -14,12 +14,6 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
-  /*
-  width: 500px;
-  height: 850px;
-  background-image: url("../img/8.png");
-  background-size: contain;
-  */
 }
 #BackImage{
   width: 500px;
