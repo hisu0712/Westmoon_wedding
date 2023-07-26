@@ -1,3 +1,4 @@
+/*
 html{
   background-image: url("../img/bak1.jpg");
   background-size: contain;
@@ -24,7 +25,6 @@ body{
   bottom: 0;
   height: 500px;
   width: 390px;
-  transform: translate(35px, 0);
 }
 #Model{
   width: 100%;
@@ -58,7 +58,6 @@ body{
     height: 100vh;
   }
   .ContainModel{
-    transform: translate(25px, 0);
     height: 450px;
     width: 340px;
   }
@@ -70,4 +69,31 @@ body{
     background-image: none;
     background-color: #eaf2d0;
   }
+}
+*/
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+	display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, minmax(100px, auto));
+}
+.item{
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.one{
+  background-color: rgb(45, 82, 216);
+}
+.two{
+  background-color: rgb(104, 185, 28);
+}
+.three{
+  background-color: rgb(229, 168, 36);
+}
+.four{
+  background-color: rgb(136, 32, 192);
 }
